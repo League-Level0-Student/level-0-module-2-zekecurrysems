@@ -20,7 +20,7 @@ Random randomMaker = new Random();
 		
 	
 	
-	JOptionPane.showMessageDialog(null, randomNumber+randomNumber2+randomNumber3+randomNumber4+randomNumber5);
+	JOptionPane.showMessageDialog(null, randomNumber+"  "+randomNumber2+" "+randomNumber3+" "+randomNumber4+" "+randomNumber5);
 	
 	
 	
