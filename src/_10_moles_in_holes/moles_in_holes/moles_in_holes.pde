@@ -1,11 +1,14 @@
 void draw() {
 
 /* Use the method below to put moles in the holes. */
-
+drawMole(300, 340);
 
 }
 
-void drawMole(int moleX, int moleY) {
+
+
+
+void drawMole(int moleX , int moleY) {
      noStroke();
      fill(125, 93, 43);
      ellipse(moleX, moleY, 60, 60); // face
@@ -16,6 +19,10 @@ void drawMole(int moleX, int moleY) {
      ellipse(moleX+10, moleY-15, 10, 10);
      ellipse(moleX, moleY-5, 10, 10); // nose
      ellipse(moleX, moleY+10, 20, 5); // mouth
+
+moleX = moleX + 200;
+moleY = moleY + 200;
+
 }
 
 void setup() {
