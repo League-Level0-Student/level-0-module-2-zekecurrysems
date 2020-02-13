@@ -21,15 +21,15 @@ System.out.println(userMood);
 // Sad = 1
 // Angry = 2		
 		// 4. Play different songs for other moods.
-if(userMood = 0) {
-playVideo("bit.ly/video-for-happy");
+if(userMood == 0) {
+playVideo("https://www.youtube.com/watch?v=8UFIYGkROII");
 }
-playVideo("bit.ly/video-for-sad");
-
-
+if(userMood == 1) {
+playVideo("https://www.youtube.com/watch?v=VT0Q0UB1saM");
+}
+if(userMood == 2) {
 playVideo("bit.ly/video-for-angry");
-
-
+}
 
 /**
 * If you can’t think of any, here are some you can use...
